@@ -26,6 +26,30 @@ for list in nama:
     print("-----6. ", mobil[5],)
     print("-----7. ", mobil[6],)
     break   
+harga = [
+    "avanza        : Rp,150,000" ,
+    "grand livina  : Rp,200,000" ,
+    "mobilio       : Rp,250,000" ,
+    "brio          : Rp,100,000" ,
+    "ayla          : Rp,100,000" ,
+    "agya          : Rp,100,000" ,
+    "pickup        : Rp,150,000" ,]
+for list in harga:
+    print("-----1. ", harga[0],)
+    print("-----2. ", harga[1],)
+    print("-----3. ", harga[2],)
+    print("-----4. ", harga[3],)
+    print("-----5. ", harga[4],)
+    print("-----6. ", harga[5],)
+    print("-----7. ", harga[6],)
+    break
+yakin = (input("apakah anda ingin melanjutkan pesanan (iya / tidak) : ")) 
+if yakin == "iya":
+    print ("silahkan pilih jenis dan berapa lama anda akan memesan :")
+else :
+    breakpoint()
+    print ("terimaksih telah mengunjungi sewa mobil kami")
+    
 
 jenis = int (input("silahkan pilih jenis mobil yang ingin anda sewa (pilih nomer) :"))
 waktu = int (input("silahkan isi berapa lama anda akan menyewa (hari)"))
