@@ -18,6 +18,7 @@ elif usia < 20 :
 mobil = ["avanza" , "grand livina" , "mobilio" , "brio" , "ayla" , "agya" , "pickup + supir"]
 
 for list in nama:
+    print("daftar mobil :")
     print("-----1. ", mobil[0],)
     print("-----2. ", mobil[1],)
     print("-----3. ", mobil[2],)
@@ -35,6 +36,7 @@ harga = [
     "agya          : Rp,100,000" ,
     "pickup        : Rp,150,000" ,]
 for list in harga:
+    print(" daftar harga")
     print("-----1. ", harga[0],)
     print("-----2. ", harga[1],)
     print("-----3. ", harga[2],)
